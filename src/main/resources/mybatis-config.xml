@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 配置文件的根元素 -->
+<configuration>
+    <!-- 设置：定义mybatis的一些全局性设置 -->
+    <settings>
+        <!-- 具体的参数名和参数值 -->
+        <setting name="logImpl" value="LOG4J"/>
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+</configuration>
